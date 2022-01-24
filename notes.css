@@ -1,0 +1,245 @@
+element.style {
+    background: #14213D !important;
+  }
+  
+  .offcanvas-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  
+  .navbody > a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    text-decoration: none;
+    /* yellow */
+    
+    color: #FCA311;
+    
+  }
+  
+  .margetop {
+    margin-top: 20px;
+  
+  }
+  
+  .navhomelinkeach {
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 100 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #FCA311 !important;
+  }
+  
+  .navbody > a:hover {
+    color: #ad7211 !important;
+  
+  }
+  
+  .touchnav {
+    /* border: 1px solid green; */
+    width: 25%;
+  }
+  
+  .touchnav > p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  
+  .mailtouch > P {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+  
+    letter-spacing: 0.02em;
+  
+    /* yellow */
+  
+    color: #FCA311;
+  }
+  
+  .mailtouch > div {
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #FCA311  ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* SECOND NAV */
+  
+  .navbar-toggler-icon {
+    background-image: url(/navbar.svg) !important;
+  }
+  
+  .logo {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  .nav-link > a,
+  .the-links,
+  .active > a  {
+    color:#FCA311 !important;
+    text-decoration:none !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing:2px;
+  }
+  
+  #again {
+    color:#FCA311 !important;
+    text-decoration:none !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing:2px;
+  }
+  
+  .Nav-cont {
+    /* background-color: #14213D !important; */
+    background-color: #0c1426 !important;
+    /* height: 100vh; */
+  }
+  
+  @media (max-width: 991px) {
+  .container, .container-md, .container-sm {
+      max-width: 90% !important;
+      /* border:2px solid yellow; */
+  }
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  /* .navbar-collapse, .responsive-navbar-nav {
+    border:2px solid green !important;
+  } */
+  
+  .real-navs {
+    display: flex !important;
+    justify-content:space-between !important;
+    align-items:center !important;
+    /* border:2px solid yellow !important; */
+    width:70% !important;
+  }
+  
+  
+  
+  /* .container {
+    height: 100vh !important;
+  } */
+  
+   @media (max-width: 576px) {
+  .container, .container-sm {
+      max-width: 693px;
+  }
+   }
+  
+  .the-links {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif !important;
+  
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .ll {
+    display: none;
+    background-color: burlywood;
+    position: absolute;
+    width: 3.7%;
+    height: 2px;
+    margin-left: -3px;
+    animation: navv 3s ease-out 0s infinite;
+    transition: ease-in;
+  }
+  .ll:hover {
+    display: block !important;
+    background-color: burlywood;
+    position: absolute;
+    width: 3.7%;
+    height: 2px;
+    margin-left: -3px;
+    animation: navv 3s ease-out 0s infinite;
+    transition: ease-in;
+  }
+  
+  @keyframes navv {
+    0%   {width: 3.7%;}
+    /* 25%  {width: 70%;} */
+    50%  {width: 0%;}
+    /* 75%  {width: 30%;} */
+    100% {width: 3.7%;}
+  }
+  
+  .the-links:hover {
+    color: rgb(140, 0, 255);
+  }
+  
+  .real-navs {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid white !important; */
+  }
+  
+  .humm{
+    border:none;
+  }
+  
+  
+  
+  .collapse:focus {
+    outline: black !important;
+    border: none !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

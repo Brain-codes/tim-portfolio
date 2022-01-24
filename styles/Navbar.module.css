@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.navrealcont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    position: fixed;
+    background-color: #14213D !important;
+    z-index: 200;
+    /* padding-top: 12px; */
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    
+}
+
+
+
+.offcanvas {
+    background-color: aqua !important;
+}
+
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 40px;
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    color: #FCA311 !important;
+}
+
+.navwidth {
+    border: 2px solid green;
+    width: 70% !important;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.Nav {
+    display: none !important;
+}
+
+.navbar-toggler {
+    display: content !important;
+}
+
+@media (min-width: 1200px) {
+    .Container {
+        max-width: 1250px !important;
+    }
+
+    .navbar-toggler {
+        display: content !important;
+    }
+
+    .collapsed {
+        display: contents !important;
+    }
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-toggler {
+    display: block !important;
+}
+}
+
+.contcont {
+    max-width: 1250px !important;
+    border: 1px solid yellow;
+}
+
+.navcont {
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navhomelink {
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FCA311 !important;
+}
+
+.navhomelinkeach {
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 100 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #FCA311 !important;
+}
+
+.navhomelinkeach:hover {
+    color: #ad7211 !important;
+
+}
+
+.ayobold {
+    text-decoration: none !important;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #FCA311;
+}
+
